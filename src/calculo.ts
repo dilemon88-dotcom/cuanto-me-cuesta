@@ -54,7 +54,10 @@ const fmt = (n: number, dec = 0) => {
 export const euros = (n: number) => `${fmt(n, n % 1 === 0 ? 0 : 2)} €`;
 
 export function textoHoras(h: number) {
-  if (h < 1) return `${Math.round(h * 60)} min`;
+  if (h < 1) {
+    const min = Math.max(1, Math.round(h * 60));
+    return min === 60 ? '1 h' : `${min} min`;
+  }
   const enteras = Math.floor(h);
   const min = Math.round((h - enteras) * 60);
   if (min === 60) return `${enteras + 1} h`;

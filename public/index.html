@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="%LANG_ISO_CODE%">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>%WEB_TITLE%</title>
+    <meta name="description" content="Convierte el precio de lo que quieres comprar en días y horas de trabajo." />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Cuánto me cuesta" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="theme-color" content="#F6F4EF" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)" />
+    <meta property="og:title" content="¿Cuánto me cuesta?" />
+    <meta property="og:description" content="El precio de las cosas, en tiempo de trabajo." />
+    <meta property="og:image" content="https://dilemon88-dotcom.github.io/cuanto-me-cuesta/icons/icon-512.png" />
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+        background: #f6f4ef;
+      }
+      @media (prefers-color-scheme: dark) {
+        html,
+        body {
+          background: #141312;
+        }
+      }
+      body {
+        overflow: hidden;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>Necesitas activar JavaScript para usar esta app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
