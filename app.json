@@ -2,17 +2,17 @@
   "expo": {
     "name": "¿Cuánto me cuesta?",
     "slug": "cuanto-me-cuesta",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#F6F4EF",
+      "backgroundColor": "#FFF8F3",
       "dark": {
         "image": "./assets/splash-icon.png",
-        "backgroundColor": "#141312"
+        "backgroundColor": "#120E16"
       }
     },
     "ios": {
@@ -25,7 +25,7 @@
     "android": {
       "package": "com.dilemon88.cuantomecuesta",
       "adaptiveIcon": {
-        "backgroundColor": "#E4572E",
+        "backgroundColor": "#FF4D5E",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"

@@ -20,8 +20,9 @@ Una vez instalada se abre a pantalla completa y funciona sin internet.
 ## Funciones
 
 - Cálculo de lo que ganas por hora y por día (12 o 14 pagas).
-- Coste de cualquier compra en días, horas y semanas o meses de trabajo.
-- Lista de deseos con el total.
+- Coste de cualquier compra en días, horas y semanas o meses de trabajo, dibujado como un calendario: cada cuadrado es un día de trabajo y cada fila una semana.
+- Ejemplos para probar con un toque (café, zapatillas, móvil, viaje…).
+- Lista de deseos con emojis, barras para comparar y el total.
 - Modo oscuro automático, según el ajuste del móvil.
 - Botón para compartir la app.
 - Todo se guarda solo en el móvil. Sin cuentas y sin nube.

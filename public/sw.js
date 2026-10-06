@@ -1,7 +1,7 @@
 // Permite usar la app sin conexión.
 // La página se pide primero a la red (para recibir actualizaciones) y, si no hay internet, se sirve la guardada.
 // El resto de archivos llevan un hash en el nombre, así que se sirven desde la caché.
-const CACHE = 'cuanto-me-cuesta-v1';
+const CACHE = 'cuanto-me-cuesta-v2';
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', 'manifest.webmanifest', 'icons/icon-192.png'])));
